@@ -1,4 +1,4 @@
-package com.example.stackoverflowusersapp;
+package com.example.stackoverflowusersapp.model;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,7 @@
-package com.example.stackoverflowusersapp;
+package com.example.stackoverflowusersapp.endpoint;
+
+import com.example.stackoverflowusersapp.model.User;
+import com.example.stackoverflowusersapp.model.UserResponse;
 
 import java.util.List;
 
@@ -47,5 +50,4 @@ public class StackOverflowServiceManager {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
     }
-
 }

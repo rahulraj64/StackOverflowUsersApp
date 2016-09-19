@@ -1,4 +1,4 @@
-package com.example.stackoverflowusersapp;
+package com.example.stackoverflowusersapp.list_users;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.stackoverflowusersapp.R;
+import com.example.stackoverflowusersapp.model.User;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -15,12 +17,12 @@ import java.util.List;
 /**
  * Created by rahul.raj on 06/09/2016.
  */
-public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHolder> {
+public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.UserViewHolder> {
 
     List<User> users;
     Context context;
 
-    public UsersAdapter(Context context, List<User> users) {
+    public UserListAdapter(Context context, List<User> users) {
         this.context = context;
         this.users = users;
     }

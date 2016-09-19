@@ -1,5 +1,7 @@
-package com.example.stackoverflowusersapp;
+package com.example.stackoverflowusersapp.endpoint;
 
+
+import com.example.stackoverflowusersapp.model.UserResponse;
 
 import retrofit2.http.GET;
 import retrofit2.http.Query;

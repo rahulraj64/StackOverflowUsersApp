@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.stackoverflowusersapp.MainActivity">
+    tools:context=".list_users.UserListActivity">
 
     <android.support.v7.widget.RecyclerView
         android:layout_height="match_parent"
